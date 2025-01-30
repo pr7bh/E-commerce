@@ -1,0 +1,13 @@
+<nav class="nav flex w-full justify-content-between align-items-center">
+  <h1>E-Comm</h1>
+  <div class="nav-search flex align-items-center">
+    <input type="text" placeholder="Search for Products..."/>
+    <button class="pi pi-search"></button>
+  </div>
+  <ul class="flex list-none">
+    <li><a [ngStyle]="{'text-decoration': 'none'}" routerLink="/">Home</a></li>
+    <li><a [ngStyle]="{'text-decoration': 'none'}" routerLink="/seller-auth">Seller</a></li>
+    <li><a [ngStyle]="{'text-decoration': 'none'}" href="#">Login</a></li>
+    <li><a [ngStyle]="{'text-decoration': 'none'}" href="#">Cart(0)</a></li>
+  </ul>
+</nav>
