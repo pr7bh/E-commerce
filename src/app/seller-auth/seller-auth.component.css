@@ -1,0 +1,17 @@
+button{
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.1);
+    background-color: rebeccapurple;
+  }
+
+}
+
+h1{
+  color: blueviolet;
+  text-align: center;
+}

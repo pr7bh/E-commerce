@@ -1,1 +1,12 @@
-<h1>seller-auth works!</h1>
+<div class="flex align-items-center justify-content-center w-full">
+  <div class="m-8 w-6 flex gap-4 flex-column justify-content-center">
+    <h1>Seller Sign Up</h1>
+    <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="flex flex-column gap-2">
+      <input type="text" ngModel name="name" placeholder="Enter Name" class="h-3rem pl-3 border-round-lg border-1" required/>
+      <input type="password" ngModel name="password" placeholder="Enter Password" class="h-3rem pl-3 border-round-lg border-1" required/>
+      <input type="email" ngModel name="email" placeholder="Enter Email" class="h-3rem pl-3 border-round-lg border-1" required/>
+
+      <button type="submit" class="h-2rem border-none cursor-pointer">Sign Up</button>
+    </form>
+  </div>
+</div>
